@@ -1,6 +1,5 @@
 import {
   Language,
-  LanguageSharp,
   MailOutline,
   Phone,
   Room,
@@ -29,19 +28,9 @@ const SocialContainer = styled.div`
 `;
 
 const Languages = styled.h4`
-  margin: 0 30px 10px;
+  margin: 0 55px 10px;
+  cursor: pointer;
 `;
-// const SocialIcon = styled.div`
-//   width: 40px;
-//   height: 40px;
-//   border-radius: 50%;
-//   color: white;
-//   background-color: #${(props) => props.color};
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   margin-right: 20px;
-// `;
 
 const Center = styled.div`
   flex: 1;
@@ -104,18 +93,6 @@ const Footer = () => {
           <Languages>
             Instagram
           </Languages>
-          {/* <SocialIcon color="3B5999">
-            <Facebook />
-          </SocialIcon>
-          <SocialIcon color="E4405F">
-            <Instagram />
-          </SocialIcon>
-          <SocialIcon color="55ACEE">
-            <Twitter />
-          </SocialIcon>
-          <SocialIcon color="E60023">
-            <Pinterest />
-          </SocialIcon> */}
         </SocialContainer>
       </Left>
       <Center>
