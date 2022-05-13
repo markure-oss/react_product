@@ -1,11 +1,11 @@
-import Register from "./Pages/Register";
+import Cart from "./Pages/Cart";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <Cart />
     </div>
   );
 }
